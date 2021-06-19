@@ -2,8 +2,8 @@
 
 E-commerce for massage gun with MERN stack
 
-<b>Stack:</b> React.js, Node.js, Express.js
-
-<b>Libraries:</b> gsap, siema.js, formik
+<b>Webstie:</b> https://hotic-polska.pl</br>
+<b>Stack:</b> React.js, Node.js, Express.js<br/>
+<b>Libraries:</b> gsap, siema.js, formik<br/>
 
 E-Commerce connected with Przelewy24 payment gateway.
