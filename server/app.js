@@ -21,7 +21,7 @@ app.use(cors());
 
 /* MondoDB Connection */
 const MongoClient = require('mongodb').MongoClient;
-const uri = "mongodb+srv://hotic:SwinkaPeppa-31@cluster0.wxmkh.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+const uri = "DATABSE_CONNECION_URL_HERE";
 
 app.all('/', function(req, res, next) {
     res.header("Access-Control-Allow-Origin", "*");
@@ -639,8 +639,6 @@ app.post("/get-user", async (req, res) => {
 app.post("/login-user", async (req, res) => {
    let username = req.body.username;
    let password = req.body.password;
-
-   console.log(username + " " + password);
 
     const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
     await client.connect(async err => {
