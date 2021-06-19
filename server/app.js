@@ -72,7 +72,7 @@ app.post("/payment/verify", async (req, res) => {
     let orderId = req.body.orderId;
 
     /* Calculate SHA384 checksum */
-    let crc = "6f527712f30a5acd";
+    let crc = "CRC_HERE";
 
     let hash, data, gen_hash;
     hash = crypto.createHash('sha384');
@@ -233,8 +233,8 @@ app.post("/payment", cors(), async (req, res) => {
     });
 
     /* Generate SHA-384 checksum */
-    let crc = "6f527712f30a5acd";
-    let marchantId = 138437;
+    let crc = "CRC_HERE";
+    let marchantId = 0;
 
     let hash, data, gen_hash;
     hash = crypto.createHash('sha384');
