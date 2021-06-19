@@ -1,0 +1,1215 @@
+@media(max-width: 1700px) {
+    .adminMenu {
+        width: 300px;
+    }
+
+    .adminLoginHeader, .adminPanelMain {
+        margin-left: 300px;
+        width: calc(100% - 300px);
+    }
+
+    .adminLogoutBtn, .backToFrontBtn {
+        left: 20px;
+    }
+}
+
+@media(max-width: 1500px) {
+    .szczegolyZamowieniaInner {
+        width: 100%;
+    }
+
+    .landingTextMain {
+        font-size: calc(30px + 70 * ((100vw - 300px) / (1200)));
+        line-height: calc(30px + 70 * ((100vw - 300px) / (1200)));
+    }
+
+    .korzysciWhiteTitle {
+        font-size: calc(15px + 15 * ((100vw - 300px) / (1200)));
+    }
+
+    .dostawaStep1Container, .kupTeraz {
+        width: 90%;
+    }
+
+    .kupTeraz {
+        margin: 0 auto;
+    }
+
+    .dostawaStep2Inner {
+        width: 100%;
+    }
+
+    .kupTerazBottom .imgWrapper {
+        width: 30%;
+    }
+
+    .kupTerazBottomImg {
+        width: 100%;
+        height: auto;
+    }
+
+    .bottomKoszyk {
+        width: 100vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+    .podsumowanieZakupow {
+        right: 5vw;
+    }
+
+    .regeneracjaBcg {
+        transform: scale(.8);
+    }
+
+    .regeneracjaLeft {
+        margin-right: 60px;
+    }
+
+    .regeneracjaHeader {
+        font-size: 40px;
+        max-width: 400px;
+    }
+
+    .regeneracjaText {
+        max-width: 400px;
+    }
+
+    .landingText {
+        top: 280px;
+    }
+
+    .landing {
+        max-height: 700px;
+    }
+
+    .landingVideo {
+        width: 100vw !important;
+        height: auto !important;
+    }
+
+    .landingText {
+        top: 240px;
+    }
+
+    .przewagaUnderline::after {
+        height: 15px;
+    }
+
+    .zamowieniaTable1500 {
+        display: none !important;
+    }
+
+    .zamowieniaTableHeaderH {
+        flex-basis: 20%;
+    }
+}
+
+@media(max-width: 1400px) {
+    .regeneracjaRight {
+        width: calc(100% - 600px);
+    }
+
+    .kupTerazLeftTop {
+        flex-direction: column;
+        align-items: center;
+        height: fit-content;
+    }
+
+    .kupTerazImgMain {
+        width: 80%;
+    }
+
+    .kupTerazThreeLeft {
+        width: 100%;
+        margin-top: 40px;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .kupTerazThreeLeftImg {
+        width: 30%;
+        height: auto;
+    }
+
+    .kupTerazLeftSecondRow {
+        margin-top: 0;
+    }
+
+    .kupTerazTitle {
+        font-size: 40px;
+    }
+
+    .kupTerazTitle::after {
+        height: 8px;
+    }
+
+    .kupTerazCena {
+        font-size: 25px;
+    }
+
+    .opisProduktuHeader {
+        font-size: 22px;
+    }
+
+    .dodajDoKoszykaBtn {
+        font-size: 18px;
+    }
+
+    .kupTerazSkorka {
+        font-size: 14px;
+    }
+
+    .opisProduktuText, .opcjeDostawyItem,
+    .opisProduktuList li
+    {
+        font-size: 16px;
+    }
+
+    .wozekImg {
+        transform: scale(.8);
+    }
+
+    .dodajDoKoszykaBtn {
+        height: 60px;
+    }
+
+    .kupTerazLeftFilm iframe, .kupTerazLeftFilmTitle {
+        display: none;
+    }
+
+    .dostawaStep1BezRejestracji {
+        padding-left: 20px;
+    }
+}
+
+@media(max-width: 1300px) {
+    .przewagaUnderline::after {
+        height: 15px;
+        bottom: 29px;
+    }
+
+    .regeneracjaBcg {
+        transform: scale(.6);
+        right: -300px;
+    }
+}
+
+@media(max-width: 1250px) {
+    .daneDostawyForm label, label span, .fakturaCheckLabel {
+        font-size: 12px;
+    }
+
+    .dostawaKoszykInnerFirstRowInfoThin {
+        margin-left: 30px;
+    }
+
+    .regeneracjaText {
+        font-size: 17px;
+    }
+
+    .landing {
+        max-height: 550px;
+    }
+
+    .landingTextCTABtn {
+        margin-top: 10px;
+    }
+}
+
+@media(max-width: 1200px) {
+    .landingTextCTABtn {
+        width: auto;
+        height: auto;
+        font-size: calc(16px + 12 * ((100vw - 300px) / (900)));
+    }
+
+    .landingTextCTABtn a {
+        padding: 10px 30px;
+    }
+
+    .kontaktModal {
+        display: none;
+    }
+
+    .kontaktModalMobile {
+        display: block;
+    }
+
+    .koszyk::before, .overMainMenu {
+        display: none;
+    }
+
+    .sectionHeader {
+        font-size: calc(16px + 18 * ((100vw - 300px) / (900)));
+    }
+
+    .innowacyjnaPomocSubheader, .innowacyjnaPomocText {
+        font-size: calc(12px + 16 * ((100vw - 300px) / (900)));
+    }
+
+    .innowacyjnaPomocBtn {
+        width: 250px;
+        height: 60px;
+        border-radius: 40px;
+        font-size: 16px;
+    }
+
+    .dodajDoKoszykaBtn, .bottomKoszykZamawiam {
+        width: auto;
+    }
+
+    .korzysciWhiteTitle {
+        width: 75%;
+    }
+
+    .korzysciWhiteImg {
+        transform: scale(.7);
+    }
+
+    .regeneracjaHeader {
+        font-size: 38px;
+    }
+
+    .regeneracjaRight {
+        width: calc(100% - 450px);
+    }
+
+    .regeneracjaLeft {
+        margin-right: 50px;
+    }
+
+    .regeneracjaText {
+        font-size: 18px;
+    }
+
+    .dostawaStep1FormContainer {
+        padding: 50px 10px;
+        width: 100%;
+    }
+
+    .regeneracjaBcg {
+        display: none;
+    }
+
+    .regeneracja {
+        justify-content: space-evenly;
+        padding: 100px 0 20px;
+    }
+
+    .regeneracjaRight {
+        width: fit-content;
+        width: -moz-max-content;
+    }
+
+    .footerBottomMenu {
+        justify-content: space-between;
+    }
+
+    .footerBottomMenuItem {
+        margin: 20px 0;
+    }
+
+    .korzysciWhite {
+        padding: 50px 0;
+    }
+
+    .pageHeader .hamburgerBtn {
+        display: flex;
+        margin-left: 50px;
+        order: 2;
+        position: relative;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+
+    }
+
+    .pageHeader .hamburgerLine {
+        background: #1e1b1b;
+    }
+
+    .pageHeaderRight .koszyk {
+        order: 1;
+        margin-left: 0;
+    }
+
+    .afterPaymentMain {
+        width: 100%;
+        height: auto;
+        min-height: 400px;
+    }
+
+    .mainMenuList {
+        display: none;
+    }
+}
+
+@media(max-width: 1100px) {
+    .landingButtons {
+        display: none;
+    }
+
+    .szczegolowyOpisBigHeader {
+        font-size: 20px;
+    }
+
+    .szczegolowyOpisSmallHeader {
+        font-size: 17px;
+    }
+
+    .szczegolowyOpisHint {
+        font-size: 16px;
+    }
+
+    .hamburgerBtn {
+        display: flex;
+        z-index: 10;
+    }
+
+    .loginMobileBtn {
+        display: block;
+    }
+
+    .mainMenu, .loudspeakerBtn, .landingVideo {
+        display: none;
+    }
+
+    .opinieItem {
+        width: 30%;
+    }
+
+    .landing {
+        max-height: none;
+        height: auto;
+    }
+
+    .landingImg {
+        display: block;
+        width: 100%;
+        height: auto;
+        z-index: -1 !important;
+    }
+
+    .landingLogo {
+        left: 50px;
+    }
+
+    .landingText {
+        bottom: 30% !important;
+        top: auto !important;
+        left: calc(5% + 15px) !important;
+    }
+}
+
+@media(max-width: 1000px) {
+    .skorkaBtnWord {
+        width: auto;
+        padding: 4px 12px;
+    }
+
+    .kupTerazSkorka {
+        text-align: center;
+    }
+
+    .szczegolyZamowieniaInner {
+        flex-direction: column;
+    }
+
+    .szczegolyZamowieniaInner > * {
+        width: 100%;
+        margin: 0;
+    }
+
+    .szczegolyZamowieniaItem > * {
+        text-align: center;
+    }
+
+    .kupTerazImgMain {
+        display: none;
+    }
+
+    .dostawaStep1BezRejestracji {
+        padding-left: 0;
+        padding-top: 30px;
+    }
+
+    .dostawaStep1BezRejestracji .hoverBtn {
+        margin-top: 40px !important;
+    }
+
+    .dostawaStep1FormContainer {
+        flex-direction: column;
+    }
+
+    .secondRowImg {
+        width: 30%;
+    }
+
+    .przewagaUnderline::after {
+        bottom: 22px;
+    }
+
+    .landingTextMain::before {
+        height: 8px;
+        top: -20px;
+    }
+
+    .korzysciInner {
+        width: 80%;
+    }
+
+    .korzysciWhite {
+        width: 90%;
+    }
+
+    .regeneracja {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .regeneracjaHeader {
+        font-size: 21px;
+    }
+
+    .regeneracjaHeader::before {
+        height: 5px;
+        width: 40px;
+        top: -15px;
+    }
+
+    .regeneracjaText {
+        font-size: 15px;
+    }
+
+    .massageGunBold::after {
+        height: 2px;
+    }
+
+    .regeneracjaLeft {
+        width: 75%;
+        height: auto;
+        margin-right: 0;
+    }
+
+    .regeneracjaLeft::after {
+        display: none;
+    }
+
+    .regeneracjaRight {
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+
+    .regeneracjaLeftImg {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 500px;
+    }
+
+    .regeneracjaBtn {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .regeneracjaHeader, .regeneracjaText {
+        text-align: center;
+    }
+
+    .regeneracjaHeader::before {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .dostawaStep2Inner {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .dostawaKoszyk {
+        order: 1;
+        position: relative;
+        top: 0;
+    }
+
+    .dostawaSposobDostawy {
+        order: 2;
+        margin-top: 50px;
+    }
+
+    .dostawaSposobDostawy, .dostawaKoszyk {
+        width: 80%;
+    }
+
+    .kupTerazMain {
+        flex-direction: column;
+    }
+
+    .kupTerazLeft {
+        width: 100%;
+        order: 2;
+    }
+
+    .kupTerazRight {
+        width: 100%;
+        order: 1;
+    }
+
+    .pistoletIlosc {
+        padding: 0;
+    }
+
+    .bottomKoszykZamawiam {
+        height: 40px;
+    }
+
+    .dostawaStep2PrzejdzDalejBtn {
+        left: auto;
+        bottom: -80px;
+    }
+
+    .zamawiamIPlaceBtn {
+        left: auto;
+        transform: none;
+    }
+
+    .kupTerazLeft {
+        display: none;
+    }
+
+    .kupTerazLeftMobile {
+        display: block;
+    }
+
+    .kupTerazLeftFilm {
+        display: none;
+    }
+
+    .dodajDoKoszykaBtnWrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    .kupTerazCena {
+        display: none;
+    }
+
+    .kupTerazCenaMobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin-left: 40px;
+    }
+
+    .kupTerazSkorkaAndCena {
+        display: flex;
+        justify-content: center;
+    }
+
+    .kupTerazCenaMobile h2 {
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+
+    .kupTerazCenaMobile h3 {
+        font-size: 26px;
+    }
+
+    .kupTerazSkorka {
+        margin: 20px 0 10px 0;
+    }
+
+    .kupTerazTitle {
+        margin: 0 auto;
+    }
+
+    .dostawaStep1FormContainer > * {
+        width: 100%;
+    }
+}
+
+@media(max-width: 900px) {
+    .moveUpBtn {
+        display: none;
+    }
+
+    .opinieItemDesktop {
+        display: none;
+    }
+
+    .opinieItem {
+        margin-bottom: 70px;
+    }
+
+    .adminMenu {
+        transform: scaleY(0);
+        z-index: 1000 !important;
+    }
+
+    .adminLoginHeader, .adminPanelMain {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .hamburgerAdmin {
+        display: flex;
+    }
+
+    .adminLoginHeaderTitle {
+        margin-left: 80px;
+    }
+
+    .adminMenuMobileClose {
+        display: block;
+        background: transparent;
+    }
+
+    .adminMenuMobileCloseImg {
+        filter: brightness(1) invert(1);
+    }
+
+    .afterPaymentContact {
+        width: 100%;
+    }
+}
+
+@media(max-width: 800px) {
+    .przewagaUnderline::after {
+        bottom: 16px;
+        height: 12px;
+    }
+
+    .opinieItemAuthor::after {
+        display: none;
+    }
+
+    .opinieItem {
+        padding: 0 80px;
+    }
+
+    .loudspeakerBtn {
+        width: 30px;
+        height: 30px;
+    }
+
+    .innowacyjnaPomoc {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .innowacyjnaPomocImg {
+        width: 80vw;
+        height: auto;
+    }
+
+    .innowacyjnaPomocImgWrapper::after {
+        width: 85vw;
+        height: 50vw;
+    }
+
+    .sectionHeader::before {
+        width: 50px;
+        height: 5px;
+        top: -15px;
+    }
+
+    .korzysciTitle, .sposobyDostawyName {
+        font-size: 17px;
+    }
+
+    .dostawaSposobDostawy, .dostawaKoszyk {
+        width: 100%;
+    }
+
+    .sposobyDostawyItem label {
+        align-items: center;
+    }
+
+    .footerBottomMenuItem {
+        font-size: 14px;
+        margin: 0 5px 15px;
+    }
+
+    .footerBottomMenu {
+        justify-content: space-evenly;
+        padding-top: 20px;
+        flex-wrap: wrap;
+    }
+
+    .opinieItemOpinia {
+        text-align: center;
+    }
+
+    .opinieItemAuthor {
+        text-align: right;
+    }
+
+    .landingLogo {
+        top: 20px;
+    }
+
+    .hamburgerBtn {
+        top: 40px;
+    }
+
+    .pageHeader {
+        padding-top: 15px;
+    }
+
+    .kupTerazMain {
+        margin-top: 10px;
+    }
+
+    .bottomKoszyk {
+        display: none;
+    }
+
+    .bottomKoszykMobile {
+        display: block;
+    }
+
+    .dostawaStep1FormContainer .przejdzDalejBtn {
+        margin-top: 20px;
+    }
+
+    .dostawaStep1Zaloguj {
+        border-right: none;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #707070;
+        margin-bottom: 30px;
+    }
+
+    .dostawaZalogujSubheader {
+        text-align: center;
+    }
+}
+
+@media(max-width: 700px) {
+    .adminBeforeLoginHeader {
+        padding: 0 40px;
+    }
+
+    #root::before {
+        display: none;
+    }
+
+    .sposobyDostawyItem {
+        padding: 20px 0 70px;
+    }
+
+    .dostawaCena {
+        left: 0;
+        right: auto;
+        bottom: 0;
+        align-items: flex-end;
+        padding-bottom: 22px;
+        z-index: -1;
+    }
+
+    .korzysciInner {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        grid-column-gap: 0;
+        margin: 50px auto;
+    }
+
+    .korzysciItem {
+        width: 48%;
+    }
+
+    .korzysciWhite {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .korzysciWhiteItem {
+        margin-bottom: 60px;
+    }
+
+    .korzysciWhiteImg {
+        padding-bottom: 15px;
+    }
+
+    .profile {
+        width: 100%;
+    }
+
+    .kupTerazMain {
+        margin-bottom: 0;
+    }
+}
+
+@media(max-width: 600px) {
+    .politykaPrywatnosciMain h2 {
+        font-size: 17px;
+    }
+
+    .zarejestrujForm .formOneLine label {
+        flex-basis: 100%;
+        margin-right: 0;
+    }
+
+    .komunikat {
+        font-size: 22px;
+    }
+
+    .zarejestrujForm .formOneLine label input {
+        width: 100% !important;
+    }
+
+    .afterPaymentH1 {
+        font-size: 24px;
+    }
+
+    .afterPaymentH2 {
+        font-size: 14px;
+    }
+
+    .afterPaymentMain {
+        padding: 20px;
+        box-shadow: none;
+        border: none;
+    }
+
+    .przewagaUnderline::after {
+        display: none;
+    }
+
+    .landingText, .landingLogo {
+        left: 5%;
+    }
+
+    .hamburgerBtn {
+        right: 5%;
+    }
+
+    .landingText {
+        top: 250px;
+    }
+
+    .landingTextCTABtn {
+        margin-top: 20px;
+        border-width: 2px;
+    }
+
+    .innowacyjnaPomoc {
+        padding-top: 70px;
+        padding-bottom: 50px;
+    }
+
+    .korzysciTitle {
+        font-size: 13px;
+        width: 75%;
+    }
+
+    .landingLogo, .pageHeaderLogo {
+        transform: scale(.7);
+    }
+
+    .formOneLine {
+        flex-wrap: wrap;
+    }
+
+    .ulicaLabel {
+        flex-basis: 100%;
+    }
+
+    .budynekLabel, .mieszkanieLabel {
+        flex-basis: 40%;
+    }
+
+    .landingText {
+        bottom: 15% !important;
+    }
+
+    .landingLogo {
+        transform: scale(.7) translateX(-15px);
+    }
+
+    .landingText {
+        transform: translateX(-15px) !important;
+    }
+
+    .pageHeader {
+        width: 95vw;
+        transform: translateX(-5vw);
+        /*padding-right: 4vw;*/
+    }
+
+    .profileBtn {
+        font-size: 13px;
+    }
+
+    .profileHeader1 {
+        font-size: 18px;
+    }
+
+    .profileDane {
+        font-size: 15px;
+    }
+
+    .zalogujForm {
+        width: 90%;
+    }
+
+    .zamowieniaTable600 {
+        display: none;
+    }
+
+    .zamowieniaKlienci .zamowieniaTableHeaderH {
+        flex-basis: 25%
+    }
+
+    .filterBtn {
+        margin: 0 10px;
+    }
+
+    .adminLoginHeader {
+        padding: 20px;
+    }
+
+    .adminLoginHeaderTitle {
+        margin-top: 30px;
+        margin-left: 100px;
+    }
+
+    .adminLoginZalogowanyJako {
+        margin-top: 30px;
+    }
+
+    .adminProduktBtn {
+        margin-left: 10px;
+        margin-top: 10px;
+        padding: 10px;
+    }
+
+    .adminLoginHeaderHigher {
+        height: 250px;
+    }
+
+    .adminPanelMainMoreTop {
+        transform: translateY(50px);
+    }
+
+    .warningModal {
+        width: 80%;
+    }
+
+    .geolocationModalInner {
+        padding: 90px 20px;
+    }
+}
+
+@media(max-width: 500px) {
+    .afterPaymentContact {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .afterPaymentBlock {
+        margin-bottom: 40px;
+    }
+
+    .dostawaSposobDostawy, .dostawaKoszyk {
+        box-shadow: none;
+        border: none;
+    }
+
+    .adminPanelSingleZamowienie .logoTop {
+        display: none;
+    }
+
+    .szczegolyZamowienia {
+        padding: 30px 20px;
+    }
+
+    .szczegolyZamowieniaInner {
+        padding: 35px 10px;
+    }
+
+    .szczegolyZamowieniaLabel {
+        font-size: 12px;
+    }
+
+    .szczegolyZamowieniaData {
+        font-size: 16px;
+    }
+
+    .zamowieniaTableNumerZamowienia {
+        display: none;
+    }
+
+    .zamowieniaTableHeaderH {
+        flex-basis: 25%;
+    }
+
+    .kupTerazBottom {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .kupTerazBottom .imgWrapper {
+        margin-bottom: 20px;
+        width: 75%;
+    }
+
+    .opinieItem {
+        padding: 20px;
+    }
+
+    .opinieItemOpinia, .opinieItemAuthor {
+        font-size: 14px;
+    }
+
+    .opinieControls {
+        margin-top: -50px;
+    }
+
+    .opinieControl {
+        transform: scale(.7);
+    }
+
+    .opinie {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    .opinie .sectionHeader {
+        margin-bottom: 30px;
+    }
+
+    .dostawaStep1 {
+        margin: 20px 0 40px;
+    }
+
+    .dostawaStep1 button {
+        font-size: 13px !important;
+    }
+
+    .wybierzPaczkomatBtn {
+        width: 90%;
+        font-size: 13px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .dostawaSposobDostawy {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .sposobyDostawy {
+        border: none;
+        padding: 0;
+        margin-top: 0;
+    }
+
+    .profile {
+        padding: 0;
+        box-shadow: none;
+        border-top: none;
+    }
+
+    .profileRowNarrow {
+        width: 80% !important;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .profileRow {
+        flex-wrap: wrap;
+    }
+
+    .profileBtn {
+        margin: 25px 30px 30px 0;
+    }
+
+    .profileRow:first-of-type .profileHeader1 {
+        width: 100%;
+    }
+
+    .dostawaStep1FormContainer {
+        border: none;
+        box-shadow: none;
+    }
+
+    .edycjaSection {
+        width: 90%;
+    }
+
+    .edycjaNazwaProduktu, .edycjaOpisProduktu {
+        width: 100%;
+    }
+
+    .zamowieniaTable500 {
+        display: none;
+    }
+
+    .adminPanelKlienci .zamowieniaTableHeaderH {
+        flex-basis: 44%;
+    }
+
+    .adminBeforeLoginHeader .formTitle {
+        font-size: 15px;
+    }
+
+    .adminBeforeLoginHeader {
+        height: 70px;
+        padding-top: 30px;
+    }
+
+    .adminBeforeLoginHeader .adminLogo {
+        transform: scale(.5);
+    }
+
+    .adminLoginForm {
+        padding: 20px;
+    }
+}
+
+@media(max-width: 400px) {
+    .skorkaBtnWord {
+        font-size: 14px;
+        padding: 0 6px;
+    }
+
+    .kupTerazSkorka {
+        text-align: left;
+    }
+
+    .korzysciInner {
+        width: 90%;
+    }
+
+    .mieszkanieLabel {
+        flex-basis: 50%;
+    }
+
+    .landingImg {
+        width: 150vw;
+    }
+
+    .landingText {
+        bottom: 25% !important;
+    }
+
+    .wybierzPaczkomatBtn {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .adminLoginZalogowanyJako {
+        display: none;
+    }
+
+    .regeneracjaText {
+        padding: 0 10px;
+    }
+}
